@@ -17,7 +17,7 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 from config import Config
 import time
 
-if Config.BUTTON_TXT  == "" and Config.BUTTON_URL == "":
+if Config.BUTTON_TXT  != "" and Config.BUTTON_URL != "":
     button_field = InlineKeyboardMarkup(
                                 [[
                                         InlineKeyboardButton(Config.BUTTON_TXT, url=Config.BUTTON_URL)
