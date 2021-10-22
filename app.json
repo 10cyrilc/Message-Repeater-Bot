@@ -47,7 +47,7 @@
     },
     "BUTTON_URL": {
       "description": "Button URL",
-      "value": "https:10cyrilc.ml",
+      "value": "https://10cyrilc.ml",
       "required": false
     }
   },
