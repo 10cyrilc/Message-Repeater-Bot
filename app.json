@@ -1,0 +1,41 @@
+{
+  "name": "Message Sender BOT",
+  "description": "A Telegram BOT to send same Messages in a Channel",
+  "repository": "https://github.com/10cyrilc/Message-Post-Bot",
+  "logo": "https://github.com/10cyrilc/Message-Post-Bot",
+  "keywords": ["telegram", "bot", "message", "send"]
+  "env": {
+	"BOT_TOKEN": {
+		"description": Get from @Botfather
+		"value": "123456:abcDefghijklMn"
+	},
+	"API_ID": {
+		"description": Get from my.telegram.org
+		"value": "123456"
+	},
+	"API_HASH": {
+		"description": Get from my.telegram.org
+		"value": "12abcdef23ghijkl34mn"
+	},
+	"SLEEP_TIME": {
+		"description": Time Required to sleep Before Posting New Message
+		"value": "3"
+	},
+	"CHAT_ID": {
+		"description": Channel ID, get from @RawDataBot
+		"value": "-10010000000"
+	},
+	"MSG_TXT": {
+		"description": Message Text
+		"value": "About Me"
+	},
+	"BUTTON_TXT": {
+		"description": Button Text
+		"value": "My Website"
+	},
+	"BUTTON_URL": {
+		"description": Button URL
+		"value": "https:10cyrilc.ml"
+	}
+	}
+}
