@@ -17,6 +17,14 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 from config import Config
 import time
 
+if Config.BUTTON_TXT  == "" and Config.BUTTON_URL == "":
+    button_field = InlineKeyboardMarkup(
+                                [[
+                                        InlineKeyboardButton(Config.BUTTON_TXT, url=Config.BUTTON_URL)
+                                 ]])
+else:
+    button_field = None
+
 bot = Client("MSG BOT",
         bot_token=Config.BOT_TOKEN,
         api_id=Config.API_ID,
@@ -27,11 +35,7 @@ def main():
         while True:
             bot.send_message(chat_id=Config.CHAT_ID,
                             text=Config.MSG_TXT,
-                            reply_markup=InlineKeyboardMarkup(
-                                [[
-                                        InlineKeyboardButton(Config.BUTTON_TXT, url=Config.BUTTON_URL)
-                                 ]]
-                            ),
+                            reply_markup=button_field,
                             disable_web_page_preview=True,        
                             parse_mode="html")
             time.sleep(Config.SLEEP_TIME * 60)
