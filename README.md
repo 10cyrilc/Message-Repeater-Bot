@@ -16,4 +16,4 @@ Find me on Telegram <a href="https://t.me/c_text_bot">@c_text_bot</a>
 
 ## Contact Me
 - Telegram <a href="https://t.me/c_text_bot">@c_text_bot</a>
-- Website 10cyrilc.ml
+- Website <a href="https://10cyrilc.ml">10cyrilc.ml</a>
