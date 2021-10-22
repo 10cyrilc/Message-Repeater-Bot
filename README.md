@@ -15,4 +15,5 @@ Find me on Telegram <a href="https://t.me/c_text_bot">@c_text_bot</a>
 - Finally run the BOT as python3 main.py
 
 ## Contact Me
+- Telegram
 - <a href="https://t.me/c_text_bot">@c_text_bot</a>
