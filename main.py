@@ -33,12 +33,13 @@ bot = Client("MSG BOT",
 def main():
     with bot:
         while True:
-            bot.send_message(chat_id=Config.CHAT_ID,
+            mes = bot.send_message(chat_id=Config.CHAT_ID,
                             text=Config.MSG_TXT,
                             reply_markup=button_field,
                             disable_web_page_preview=True,        
                             parse_mode="html")
             time.sleep(Config.SLEEP_TIME * 60)
+            await mes.delete()
 if __name__ == "__main__":
     print("\n\nIf you have Any Issues Report it @c_text_bot\n\nor at https://t.me/c_text_bot\n\n")
     main()
