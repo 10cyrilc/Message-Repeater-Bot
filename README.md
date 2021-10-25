@@ -2,6 +2,8 @@
 
 I made a Simple Telegram Bot to Post Same Message in a Channel after Specific Peiod of Time
 
+That is, this BOT will be able to post a Message Repeatedly at a Specific Interval
+
 This is a Test BOT, I am Happy to Take Feedbacks.....
 
 Find me on Telegram <a href="https://t.me/c_text_bot">@c_text_bot</a>
